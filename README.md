@@ -1,6 +1,6 @@
 # Emuda
 
-Emuda is my personal of helper functions. Many of them were adapted from Ramda.js
+Emuda is my personal library of helper functions. Many of them were adapted from Ramda.js
 
 ## Installation
 
