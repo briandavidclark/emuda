@@ -4,13 +4,10 @@ Emuda is my personal library of helper functions. Many of them were adapted from
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `Emuda` to your list of dependencies in `mix.exs`:
-
 ```elixir
 def deps do
   [
-    {:Emuda, "~> 0.1.0"}
+    {:Emuda, git: "https://github.com/briandavidclark/emuda.git", "~> 0.1.0"}
   ]
 end
 ```
