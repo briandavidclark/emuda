@@ -53,7 +53,7 @@ defmodule Emuda.Collection do
   def props(data, keys, or_else \\ nil), do: Enum.map(keys, &path(data, [&1], or_else))
 
   @doc """
-  Returns a new list by plucking the same keyed item off of all items in the data supplied.
+  Returns a new collection by plucking the same keyed item off of all items in the collection supplied.
   """
   @spec pluck(traversable(), path_item(), any()) :: any()
   def pluck(data, key, or_else \\ nil) do
