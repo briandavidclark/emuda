@@ -23,7 +23,7 @@ defmodule Emuda.Collection do
   end
 
   @doc """
-  Creates an array with all falsy values removed. The values `false`, `nil`, `0`, `""`, `[]`, `%{}`, `{}`, and `"0"` are falsy.
+  Creates a list with all falsy values removed. The values `false`, `nil`, `0`, `""`, `[]`, `%{}`, `{}`, and `"0"` are falsy.
   """
   @spec compact(traversable()) :: traversable()
   def compact(data) do
